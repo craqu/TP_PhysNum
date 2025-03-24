@@ -10,9 +10,9 @@ import numpy as np
 import time
 
 # local files
-import geo as geo
-import util as util
-import CTfilter as CTfilter
+import PythonFiles.geo as geo
+import PythonFiles.util as util
+import PythonFiles.CTfilter as CTfilter
 
 ## créer l'ensemble de données d'entrée à partir des fichiers
 def readInput():
